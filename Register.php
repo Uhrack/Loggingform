@@ -1,6 +1,6 @@
 <?php
 $dbhost = 'localhost :8002';
-$dbusername = 'loginform' ;
+$dbusername = 'root' ;
 $dbpassword = 'loginform';
 $dbname = 'loginform';
 
@@ -11,11 +11,6 @@ $conn = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
-
-
-
-
-
 $name = $_POST['name'];
 $email = $_POST['email'];
 $password = $_POST['password'];
