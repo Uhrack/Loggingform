@@ -1,8 +1,8 @@
 <?php
-$dbhost = 'localhost :3306';
-$dbusername = 'database' ;
-$dbpassword = 'Bakanike123';
-$dbname = 'mydatabase';
+$dbhost = 'localhost :8002';
+$dbusername = 'loginform' ;
+$dbpassword = 'loginform';
+$dbname = 'loginform';
 
 // Create connection
 $conn = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
